@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Amazonia</h1>
+    <h3>Add a new shipping address</h3>
+    <form action="">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Full name (First and Last name)</label>
+            <br>
+            <input type="text" id="name">
+            <br>
+            <label for="number">Phone number</label>
+            <br>
+            <input type="number" id="number">
+        </fieldset>
+        <fieldset>
+            <legend>Address Information</legend>
+            <label for="country">Country</label>
+            <br>
+            <input type="text" id="country">
+            <br>
+            <label for="address">Address</label>
+            <br>
+            <input type="text" id="address" placeholder="Street address or P.O Box">
+            <br>
+            <input type="text" id="address" placeholder="Apt, suite, unit, building, floor">
+            <br>
+            <label for="city">City</label>
+            <br>
+            <input type="text" id="city">
+            <br>
+            <label for="state">State</label>
+            <br>
+            <input type="text" id="state">
+            <br>
+            <label for="zip">Zip Code</label>
+            <br>
+            <input type="number" id="zip">
+            <input type="checkbox" name="nozip" id="nozip">
+            <label for="nozip">My address does not have a ZIP code.</label>
+            <br><br>
+            <input type="checkbox" name="default" id="default">
+            <label for="default">Use as my default address.</label>
+        </fieldset>
+        <button>Add</button>
+    </form>
+</body>
+</html>
